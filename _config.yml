@@ -85,7 +85,7 @@ analytics:
 # Site Author
 author:
   name             : "Eric Soedarto"
-  avatar           : "/images/Pas Foto.jpg =250x250" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  avatar           : "/images/Pas Foto.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "Data Science Portfolio"
   location         : "Indonesia"
   email            :
