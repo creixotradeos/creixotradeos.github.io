@@ -1,7 +1,14 @@
+---
+title : "Iris Dataset : Pattern Recognition"
+date : 2019-01-07
+tags : [data analytics, pattern recognition, iris]
+header :
+excerpt : "Data Analytics", "Pattern Recognition"
+mathjax : "true"
+---
+
 
 # Iris Dataset : Pattern Recognition
-
-====================================
 
 ## Import all necessary libraries
 
