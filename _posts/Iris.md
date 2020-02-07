@@ -1,4 +1,3 @@
-
 ---
 title: "Iris Pattern Recognition"
 date: 2020-01-07
