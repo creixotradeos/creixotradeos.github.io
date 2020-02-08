@@ -464,8 +464,10 @@ print str(round(virg_below_5, 2)) + "%"
 From the above CDF plots, it can be seen that 100 % of the Setosa flower species have petal length less than 1.9. Near about 95 % of the Versicolor flowers have petal length less than 5, while about 12% of the Virginica flowers have petal length less than 5. So, we will incorporate our newly found insights into our previously written pseudo-code to construct a simple uni-variate ‘classification model’.
 
 If petal_length < 1.9 then species = ‘Setosa’ (accuracy = 100%)
+
 else if   petal_length > 3.2 and petal_length < 5
           then species = ‘Versicolor’ (accuracy = 94.71%)
+          
 else if   petal_length > 5
           then species = ‘Virginica’ (accuracy = 87.96%)
 
