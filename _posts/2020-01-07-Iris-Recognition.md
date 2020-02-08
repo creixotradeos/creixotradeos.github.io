@@ -324,7 +324,7 @@ plt.show()
 ```
 
 
-<img src="{{ site.url }}{{ site.baseurl }}/images/Iris Pattern Recog/Violin plot.png" alt="Violin Plot">
+<img src="{{ site.url }}{{ site.baseurl }}/images/Iris Pattern Recog/Violin plot.png" alt="Violin-Plot">
 
 
 Violin plots typically are more informative as compared to the box plots as violin plots also represent the underlying distribution of the data in addition to the statistical summary.
