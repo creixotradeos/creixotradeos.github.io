@@ -10,6 +10,12 @@ mathjax: "true"
 
 # Iris Dataset : Pattern Recognition
 
+This is my take on the Iris Flower Dataset. Which is a multivariate data set introduced by British statiscian and biologist Ronald Fisher in 1936 paper as an example of linear discriminant analysis.
+
+The data set consists of 50 samples from each of three species of Iris flower (Iris setosa, Iris virginica, and Iris versicolor). Four features were measured: the length and width of the sepals and petals, all measured in centimeters.
+
+Here is my attempt to recognise species of Iris flower based on the measured features using Probability Density Function (PDF) and Cumulative Density Function (CDF). This analysis is done in Python using Jupyter Notebook.
+
 ## Import all necessary libraries
 
 
@@ -29,10 +35,6 @@ iris = iris.rename(columns={0:"Sepal.Length", 1:"Sepal.Width", 2:"Petal.Length",
 iris.head(n=10) #Display first 10 row from the dataset
 
 ```
-
-
-
-
 <div>
 <table border="1" class="dataframe">
   <thead>
@@ -132,8 +134,9 @@ iris.head(n=10) #Display first 10 row from the dataset
 
 
 
-## Determine the mean and median present in the dataset
+## Basic Statistical Analysis - Central Tendency and Spread of Data
 
+###Determine the mean and the median of the features present in the data set
 
 ```python
 iris.groupby('Species').agg(['mean', 'median'])
@@ -213,9 +216,9 @@ iris.groupby('Species').agg(['mean', 'median'])
 </table>
 </div>
 
+With the above result, the difference of values between the mean and median of each species' variables are found to be pretty close. This indicates that data is nearly symmetrically distributed with insignificant presence of outliers.
 
-
-## Determine the standard deviation of the data
+### Determine the standard deviation
 
 
 ```python
@@ -269,10 +272,13 @@ iris.groupby('Species').std()
 </table>
 </div>
 
-
+Standard deviation is an indication of how widely the data is spread around the mean.
 
 ## Box Plot and Violin Plot
 
+### Box Plot
+
+Box plot displays a summary of a large amount of data in five numbers: minimum, lower quartile(25th percentile), median(50th percentile), upper quartile(75th percentile), and maximum data values.  
 
 ```python
 #Box Plot
@@ -293,11 +299,13 @@ plt.show()
 ```
 
 
-![png](output_10_0.png)
+<img src="{{ site.url }}{{ site.baseurl }}/images/Iris Pattern Recog/Boxplot.png" alt="Boxplot">
 
 
-The isolated points that can be seen in the box-plots above are the outliers in the data. Since these are very few in number, it wouldn't have any significant impact on our analysis.
+The isolated points that can be seen in the box-plots above are the outliers in the data. Since these are very few in number, it wouldn't have any significant impact on the analysis.
 
+### Violin Plot
+Violin plot, similar to the boxp plot, shows the distriution of data accross several levels of one (or more) categorical variables(in this case flower species) such that those distributions can be visually compared. However, unlike box plot, violin plot shows the kernel density estimation of the underlying distribution.
 
 ```python
 #Violin Plot
@@ -316,14 +324,14 @@ plt.show()
 ```
 
 
-![png](output_12_0.png)
+<img src="{{ site.url }}{{ site.baseurl }}/images/Iris Pattern Recog/Violin Plot.png" alt="Violin Plot">
 
 
 Violin plots typically are more informative as compared to the box plots as violin plots also represent the underlying distribution of the data in addition to the statistical summary.
 
-Probability Density Function (PDF) & Cumulative Distribution Function (CDF)
+## Probability Density Function (PDF) & Cumulative Distribution Function (CDF)
 
-Uni-variate as the name suggests is one variable analysis. Our ultimate aim is to be able to correctly identify the specie of Iris flower given it’s features — sepal length, sepal width, petal length and petal width. Which among the four features is more useful than other variables in order to distinguish between the species of Iris flower ? To answer this, we will plot the probability density function(PDF) with each feature as a variable on X-axis and it’s histogram and corresponding kernel density plot on Y-axis.
+Uni-variate as the name suggests is one variable analysis. The objective is to be able to correctly identify the specie of Iris flower given it’s features — sepal length, sepal width, petal length and petal width. Which among the four features is more useful than other variables in order to distinguish between the species of Iris flower ? To answer this, we will plot the probability density function(PDF) with each feature as a variable on X-axis and it’s histogram and corresponding kernel density plot on Y-axis.
 
 Before we begin further analysis, we need to split the Data Frame according to the 3 distinct class-labels — Setosa, Versicolor and Virginica.
 
@@ -355,33 +363,25 @@ plt.show()
 ```
 
 
-![png](output_19_0.png)
+<img src="{{ site.url }}{{ site.baseurl }}/images/Iris Pattern Recog/Sepal Length - Fig 1.png" alt="Fig 1">
 
+The density plot above(Plot 1) reveals that there is a significant amount of overlap between the species on sepal length, so it wouldn’t be a good idea to consider sepal length as a distinctive feature in our uni-variate analysis.
 
-
-![png](output_19_1.png)
-
-
-
-![png](output_19_2.png)
-
-
-
-![png](output_19_3.png)
-
-
-The density plot alongside(Plot 1) reveals that there is a significant amount of overlap between the species on sepal length, so it wouldn’t be a good idea to consider sepal length as a distinctive feature in our uni-variate analysis.
+<img src="{{ site.url }}{{ site.baseurl }}/images/Iris Pattern Recog/Sepal Width - Fig 2.png" alt="Fig 2">
 
 With sepal width as a classification feature(Plot 2), the overlap is even more than sepal length as seen in Plot 1 above. The spread of the data is also high. So, again we cannot make any comment on the specie of the flower given it’s sepal width only.
 
+<img src="{{ site.url }}{{ site.baseurl }}/images/Iris Pattern Recog/Petal Length - Fig 3.png" alt="Fig 3">
+
 The density plot of petal length alongside(Plot 3) looks promising from the point of view of uni-variate classification. The Setosa species are well separated from Versicolor and Virginica, although there is some overlap between the Versicolor and Virginica, but not as bad as the the above two plots.
+
+<img src="{{ site.url }}{{ site.baseurl }}/images/Iris Pattern Recog/Petal Width - Fig 4.png" alt="Fig 4">
 
 The density plot of petal width alongside(Plot 4) also looks good. There is slight intersection between the Setosa and Versicolor species, while the overlap between the Versicolor and Virginica is somewhat similar to that of petal length(Plot 3).
 
 To summarize, if we have to choose one feature for classification, we will pick petal length (Plot 3) to distinguish among the species. If we have to select two features, then we will choose petal width as the second feature, but then again it would be a wiser to look at pair-plots(bi-variate and multivariate analysis) to determine which two features are most useful in classification.
 
 We have already established above how petal length could stand out as an useful metric to differentiate between the species of Iris flower. From our preliminary investigation, below pseudo-code can be constructed —
-(Note that this estimation is based on the kernel density smoothed probability distribution plots obtained from histograms)
 
 
 ```python
@@ -392,21 +392,19 @@ plt.show()
 ```
 
 
-![png](output_22_0.png)
+<img src="{{ site.url }}{{ site.baseurl }}/images/Iris Pattern Recog/Petal Length - Fig 3.png" alt="Fig 3">
 
-
-
-![png](output_22_1.png)
 
 
 If petal_length < 2.1
-then specie = ‘Setosa’
+then species = ‘Setosa’
 else if petal_length > 2.1 and petal_length < 4.8
-then specie = ‘Versicolor’
+then species = ‘Versicolor’
 else if petal_length > 4.8
-then specie = ‘Virginica’
+then species = ‘Virginica’
 *all lengths are in centimeters.
 
+To further find out how much proportion or perentage of Versicolor and Virginica flowers will be incorrectly classified with above analysis - Cumulative distribution plots is used
 
 ```python
 plt.figure(figsize=(15,10))
@@ -434,10 +432,12 @@ plt.show()
 ```
 
 
-![png](output_24_0.png)
+<img src="{{ site.url }}{{ site.baseurl }}/images/Iris Pattern Recog/PDF-CDF.png" alt="PDF-CDF">
+
+From the above results, several insights can be taken :
 
 
-Percentage of Virginica Petal Length under 5 cm :
+  Percentage of Virginica Petal Length under 5 cm :
 
 
 ```python
@@ -449,7 +449,7 @@ print str(round(vers_above_5, 2)) + "%"
     5.29%
     
 
-Percentage of Virginica Petal Length under 5 cm :
+  Percentage of Virginica Petal Length under 5 cm :
 
 
 ```python
