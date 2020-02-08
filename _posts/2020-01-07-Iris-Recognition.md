@@ -136,7 +136,7 @@ iris.head(n=10) #Display first 10 row from the dataset
 
 ## Basic Statistical Analysis - Central Tendency and Spread of Data
 
-###Determine the mean and the median of the features present in the data set
+### Determine the mean and the median of the features present in the data set
 
 ```python
 iris.groupby('Species').agg(['mean', 'median'])
