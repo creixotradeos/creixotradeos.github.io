@@ -7,8 +7,6 @@ excerpt: "Random Walk, Monte Carlo Simulation"
 mathjax: "true"
 ---
 
-# Random Walk and Monte Carlo Simulation in Python
-
 ## Random Walk
 A Random Walk refers to any process in which there is no observable pattern or trend; that is, where the movement of an object, or the values taken by a certain variable, are completely random.  A more formal definition can be read on [Wiki page](https://en.wikipedia.org/wiki/Random_walk) .Certain real-life scenarios that could be modeled as random walk could be:
  
@@ -22,12 +20,12 @@ To further illustrate this concept, let's simulate a Random Walk with a simple e
 
 Suppose that you live in a perfectly arranged neighborhood such as illustrated below with your location pointed red:
 
-<img src="{{ site.url }}{{ site.baseurl }}images/Random%20Walk%20and%20Monte%20Carlo/Grid%20first%20location.png" 
+<img src="{{ site.url }}{{ site.baseurl }}/images/Random Walk and Monte Carlo/Grid first location.png" 
 alt="Your Neighborhood and Your location (pointed red)">
 
 Now, imagine that your original position as the point zero (0, 0) in the standard X-Y chart:
 
-<img src="{{ site.url }}{{ site.baseurl }}images/Random%20Walk%20and%20Monte%20Carlo/Grid%20with%20XY%20NESW.png" 
+<img src="{{ site.url }}{{ site.baseurl }}/images/Random Walk and Monte Carlo/Grid with XY NESW.png" 
 alt="Your choice of direction North (0, +1), East (1, 0), South (0, -1), West (-1, 0)">
 
 Suppose that you will walk randomly along your neighborhood's line and at each street crossing you will randomly choose which direction to walk to. Say that there is four direction to go North, East, South, and West. Written differently in numbers, at each crossing you will randomly choose to go North (0, +1), East (1, 0), South (0, -1), or West (-1, 0). With each decision, you will add these coordinates to your previous position. The end of your coordinate after you decide to finish your walk is the result of you randomly choose which direction to go to. Of course if you redo the experiment several time, you will end up in a different location then before as it is random where you choose your direction.
@@ -67,7 +65,7 @@ random_walk_2(15)
 ```
 This means that with randomly walk 15 blocks you will end up at 5 blocks to the west and 2 blocks to the south, or 7 blocks away from your original position.
 
-<img src="{{ site.url }}{{ site.baseurl }}images/Random Walk and Monte Carlo/Grid new coordinate.png" 
+<img src="{{ site.url }}{{ site.baseurl }}/images/Random Walk and Monte Carlo/Grid new coordinate.png" 
 alt="Your new coordinate (Red point)">
 
 Now, suppose that if you will only go back home by walk if you are 2 blocks away from your house otherwise you will use a transportation. ***What is the longest walk so that on average you will end up 2 blocks or fewer from home?***
