@@ -1,6 +1,6 @@
 ---
 title: "Iris Dataset : Pattern Recognition"
-date: 2019-01-07
+date: 2020-01-07
 tags: [data analytics, pattern recognition, iris]
 header:
 excerpt: "Data Analytics, Pattern Recognition"
