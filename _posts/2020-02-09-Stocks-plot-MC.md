@@ -121,9 +121,9 @@ Now, we can do an attempt to answer the question at the start of this article: t
 
 ## Monte Carlo Simulation on Stock Price
 
-
+At any given time, multiple events can occur in the next time step based on an action.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA3NDM4OTU4NCw4ODUyNjIxMTMsMTgzNz
-YzNTEwNF19
+eyJoaXN0b3J5IjpbLTUxOTM4NzYyMSwxMDc0Mzg5NTg0LDg4NT
+I2MjExMywxODM3NjM1MTA0XX0=
 -->
