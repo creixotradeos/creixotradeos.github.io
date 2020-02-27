@@ -124,10 +124,12 @@ A typical way to explain Monte Carlo Simulation is to imagine any type of probab
 
 Technically written, below is the Monte Carlo equation that is going to be used in this article:
 
-$$ Today'srice $$
+$$ P_t = P_{t-1} * e^{(Drift + Random Component)}$$
 
+Since Monte Carlo are
+Monte Carlo are taken from a probability distribution to provide a multivariate model of risk or present multiple what if events
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzM1MzE3OTA3LC00OTgyMjI0OTUsLTUxOT
-M4NzYyMSwxMDc0Mzg5NTg0LDg4NTI2MjExMywxODM3NjM1MTA0
-XX0=
+eyJoaXN0b3J5IjpbLTExMzQyMTIwODIsLTQ5ODIyMjQ5NSwtNT
+E5Mzg3NjIxLDEwNzQzODk1ODQsODg1MjYyMTEzLDE4Mzc2MzUx
+MDRdfQ==
 -->
