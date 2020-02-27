@@ -79,7 +79,13 @@ $$r_t  =  log  ({P_t \over P_{t-1}}) $$
 
 with Pt as the current stock price and Pt-1 is the previous day's stock price.
 
+Logarithmic Return of IHSG:
+```python
+#Calculate IHSG Logarithmic daily return
+IHSG_log_return = np.log(1 + IHSG.iloc[: , 0].pct_change())
+IHSG_log_return
+```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODMxNDUzNjEwLDE4Mzc2MzUxMDRdfQ==
+eyJoaXN0b3J5IjpbLTk1NzUxMTU5NiwxODM3NjM1MTA0XX0=
 -->
