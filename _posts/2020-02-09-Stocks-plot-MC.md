@@ -11,7 +11,11 @@ Most investors are continually attempt to discover a solution to a basic questio
 
 Fundamentally speaking, nobody can infallibly claim to accurately answer that question. That is why the majority of investors and analyst go through a really long effort attempting to estimate the future of an assest's price. One of tools to do this is using **Python** languange to assist in analyzing large amount of data of the stock market.
 
-In this article, we will write a script that will al
+In this article, we will write a script that will allow us to:
+
+ - Get market data with Python and Pandas package
+ - Show 
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgzNTE4MzY2Nl19
+eyJoaXN0b3J5IjpbLTkwOTI1MDU4XX0=
 -->
