@@ -74,6 +74,8 @@ As we can see, we have 6 informations of the daily stock price the Adjusted Clos
 ## Determine the daily return of the index
 
 Next, we can calculate the daily return of the index. For this article I will use the logarithmic return of the index. 
+
+$ 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgzNzYzNTEwNF19
+eyJoaXN0b3J5IjpbLTE5OTcwNjczOTIsMTgzNzYzNTEwNF19
 -->
