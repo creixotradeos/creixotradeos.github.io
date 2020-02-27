@@ -75,10 +75,11 @@ As we can see, we have 6 informations of the daily stock price the Adjusted Clos
 
 Next, we can calculate the daily return of the index. For this article I will use the logarithmic return of the index. 
 
-$\int_0^\infty \mathrm{e}^{-x}\,\mathrm{d}x$
-$$r_t  =  log  (P_t / P_{t-1}) $$
+$$r_t  =  log  ({P_t \over P_{t-1}}) $$
 
-$\Gamma(z) = \int_0^\infty t^{z-1}e^{-t}dt\,.$
+with Pt as the current stock price and Pt-1 is the previous day's stock price.
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTEyNDMzNjU0OSwxODM3NjM1MTA0XX0=
+eyJoaXN0b3J5IjpbODMxNDUzNjEwLDE4Mzc2MzUxMDRdfQ==
 -->
