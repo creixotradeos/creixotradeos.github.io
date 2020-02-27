@@ -120,11 +120,12 @@ As we can see, that the majority of the daily return are between -0.025 and +0.0
 Now, we can do an attempt to answer the question at the start of this article: to have an estimate of the future stock price.
 
 ## Monte Carlo Simulation on Stock Price
-A typical way to explain Monte Carlo Simulation is considering any type of possibility, subsequently the opening machine picture. At some random time, numerous occasions can happen in whenever step dependent on an activity.
+A typical way to explain Monte Carlo Simulation is to imagine any type of probability, for example the slot machine image. At any given time, numerous occasions can happen in whenever next step depending on an action.
 
-At any given time, multiple events can occur in the next time step based on an action.
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ5ODIyMjQ5NSwtNTE5Mzg3NjIxLDEwNz
-QzODk1ODQsODg1MjYyMTEzLDE4Mzc2MzUxMDRdfQ==
+eyJoaXN0b3J5IjpbLTM1NzUwNjM3LC00OTgyMjI0OTUsLTUxOT
+M4NzYyMSwxMDc0Mzg5NTg0LDg4NTI2MjExMywxODM3NjM1MTA0
+XX0=
 -->
