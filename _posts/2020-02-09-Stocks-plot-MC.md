@@ -179,9 +179,9 @@ Monte Carlo Simulation is yet another tool in helping to make a investment decis
 In the future, I will try to make a more in-depth analysis on this simulation to help in making a better decision in investing in stock market. 
 
 Thank you for reading this article any feedback would be gladly appreciated!
-You can see my full code and further analysis for this article on my [GitHub repo](https://github.com/creixotradeos/Random-Walk-and-Monte-Carlo.git)
+You can see my full code and further analysis for this article on my [GitHub repo](https://github.com/creixotradeos/Plot-and-Monte-Carlo-Simulation.git)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MzQ5MTg3MjYsLTIwMDAyNTU4ODAsLT
-Q5ODIyMjQ5NSwtNTE5Mzg3NjIxLDEwNzQzODk1ODQsODg1MjYy
-MTEzLDE4Mzc2MzUxMDRdfQ==
+eyJoaXN0b3J5IjpbMTAzNzcwNjc3MCwtMTkzNDkxODcyNiwtMj
+AwMDI1NTg4MCwtNDk4MjIyNDk1LC01MTkzODc2MjEsMTA3NDM4
+OTU4NCw4ODUyNjIxMTMsMTgzNzYzNTEwNF19
 -->
