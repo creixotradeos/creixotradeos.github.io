@@ -16,12 +16,10 @@ In this article, we will write a script that will allow us to:
  - Get market data with Python and Pandas package
  - Determine the daily return of the stock
  - Plot the daily return with a chart
- - Simulate the movement of the stock price in the future with Monte Carlo 
-
-Simulation
+ - Simulate the movement of the stock price in the future with Monte Carlo Simulation
  
-
+Monte Carlo Simulation is a mathematical technique that generates random variables for modelling. I have briefly written a simple explanation of the simulation [here](https://creixotradeos.github.io/Random-walk-monte-carlo-python/)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYxMDMxMzIzXX0=
+eyJoaXN0b3J5IjpbNzI1OTEyMTA1XX0=
 -->
