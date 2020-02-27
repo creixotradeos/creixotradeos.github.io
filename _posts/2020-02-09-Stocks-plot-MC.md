@@ -161,8 +161,15 @@ for t in range(1, t_intervals):
     price_list[t] = price_list[t-1] * daily_returns[t]
 ```
 
+Plotting the Monte Carlo Simulation
+```python
+#Plot the simulation
+plt.figure(figsize=(15,10))
+plt.plot(price_list)
+plt.show()
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQxMTI4MDUxMiwtMjAwMDI1NTg4MCwtND
-k4MjIyNDk1LC01MTkzODc2MjEsMTA3NDM4OTU4NCw4ODUyNjIx
-MTMsMTgzNzYzNTEwNF19
+eyJoaXN0b3J5IjpbMjkyMjk5NjA0LC0yMDAwMjU1ODgwLC00OT
+gyMjI0OTUsLTUxOTM4NzYyMSwxMDc0Mzg5NTg0LDg4NTI2MjEx
+MywxODM3NjM1MTA0XX0=
 -->
