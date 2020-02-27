@@ -126,10 +126,13 @@ Technically written, below is the Monte Carlo equation that is going to be used 
 
 $$ P_t = P_{t-1} * e^{(Drift + Random Component)}$$
 
-Since Monte Carlo are
-Monte Carlo are taken from a probability distribution to provide a multivariate model of risk or present multiple what if events
+Since Monte Carlo is formally defined taken from a probability distribution to provide a multi-variable model of present 'what-if' events.
+With the equation, it basically contains 3 components:
+
+ - P
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMzQyMTIwODIsLTQ5ODIyMjQ5NSwtNT
-E5Mzg3NjIxLDEwNzQzODk1ODQsODg1MjYyMTEzLDE4Mzc2MzUx
-MDRdfQ==
+eyJoaXN0b3J5IjpbNTUxMTY5ODQyLC00OTgyMjI0OTUsLTUxOT
+M4NzYyMSwxMDc0Mzg5NTg0LDg4NTI2MjExMywxODM3NjM1MTA0
+XX0=
 -->
