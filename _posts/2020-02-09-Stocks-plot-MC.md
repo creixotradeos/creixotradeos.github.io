@@ -171,11 +171,11 @@ plt.show()
 <img src="{{ site.url }}{{ site.baseurl }}/images/Plot and Monte Carlo/Monte Carlo.png" 
 alt="Monte Carlo Simulation">
 
-If we look at the result of the simulation, based on 10 years return and from 
+If we look at the result of the simulation, based on 10 years return and from the last retrieved price of JKSE, this composite index can potetially swing from Rp 4,200 t
 
 One thing to note is the large volatility in these simulations. From today’s price of 1.50, Tezos can potentially swing from 1.00 to 2.75! From these small number of simulations, I can see why some people like to take a chance on Bitcoin and similar cryptos due to the slightly favored upside potential.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkxMzc5NDQ1MywtMjAwMDI1NTg4MCwtND
-k4MjIyNDk1LC01MTkzODc2MjEsMTA3NDM4OTU4NCw4ODUyNjIx
-MTMsMTgzNzYzNTEwNF19
+eyJoaXN0b3J5IjpbMzQyMTY0MTk1LC0yMDAwMjU1ODgwLC00OT
+gyMjI0OTUsLTUxOTM4NzYyMSwxMDc0Mzg5NTg0LDg4NTI2MjEx
+MywxODM3NjM1MTA0XX0=
 -->
