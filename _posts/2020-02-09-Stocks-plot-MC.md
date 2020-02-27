@@ -9,14 +9,9 @@ mathjax: "true"
 
 Most investors are continually attempt to discover a solution to a basic question, _What is the movement of the market in the future_.
 
-Fundamentally speaking, nobody can infallibly claim to accurately answer that question. That is why the majority of investors and analyst go through a really long effort attempting to estimate the future of an assest's price. In this article, I will try to
+Fundamentally speaking, nobody can infallibly claim to accurately answer that question. That is why the majority of investors and analyst go through a really long effort attempting to estimate the future of an assest's price. One of tools to do this is using **Python** languange to assist in analyzing large amount of data of the stock market.
 
-Clearly, nobody knows the appropriate response and accordingly speculators and money related investigators go through a really long time attempting to discover a best gauge of future stock costs. **Python for finance** can be an extraordinary partner to help us with this examination. Right now, will compose a content that will let us:
-
-
-The majority of investors are always trying to find an answer to a simple question,  _how the market will do in the future_.
-
-Obviously, no one knows the answer and therefore investors and financial analysts spend hours and hours trying to find out a best estimate of future stock prices.  **Python for finance**  can be a great ally to support us with this analysis. In this story, we will write a script that will let us:
+In this article, we will write a script that will al
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2ODQ0MDM2MTldfQ==
+eyJoaXN0b3J5IjpbLTgzNTE4MzY2Nl19
 -->
