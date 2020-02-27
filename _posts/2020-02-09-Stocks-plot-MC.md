@@ -168,10 +168,14 @@ plt.figure(figsize=(15,10))
 plt.plot(price_list)
 plt.show()
 ```
+<img src="{{ site.url }}{{ site.baseurl }}/images/Plot and Monte Carlo/Monte Carlo.png" 
+alt="Monte Carlo Simulation">
 
-/images/Plot%20and%20Monte%20Carlo/Monte%20Carlo.png
+If 
+
+One thing to note is the large volatility in these simulations. From today’s price of 1.50, Tezos can potentially swing from 1.00 to 2.75! From these small number of simulations, I can see why some people like to take a chance on Bitcoin and similar cryptos due to the slightly favored upside potential.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjgwNDUwNjY0LC0yMDAwMjU1ODgwLC00OT
+eyJoaXN0b3J5IjpbOTA0MDYzODM0LC0yMDAwMjU1ODgwLC00OT
 gyMjI0OTUsLTUxOTM4NzYyMSwxMDc0Mzg5NTg0LDg4NTI2MjEx
 MywxODM3NjM1MTA0XX0=
 -->
