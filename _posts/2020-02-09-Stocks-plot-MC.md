@@ -112,6 +112,12 @@ plt.scatter(IHSG_log_return.index, IHSG_log_return)
 plt.show()
 ```
 
+<img src="{{ site.url }}{{ site.baseurl }}/images/Random Walk and Monte Carlo/Grid with XY NESW.png" 
+alt="Your choice of direction North (0, +1), East (1, 0), South (0, -1), West (-1, 0)">
+
+## /[images](https://github.com/creixotradeos/creixotradeos.github.io/tree/master/images)/[Plot and Monte Carlo](https://github.com/creixotradeos/creixotradeos.github.io/tree/master/images/Plot%20and%20Monte%20Carlo)/**Log return scatter plot.png**
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODg1MjYyMTEzLDE4Mzc2MzUxMDRdfQ==
+eyJoaXN0b3J5IjpbLTEzOTc5MDI0NTksODg1MjYyMTEzLDE4Mz
+c2MzUxMDRdfQ==
 -->
