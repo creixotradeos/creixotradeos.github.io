@@ -46,11 +46,11 @@ end = datetime.datetime(2020, 2, 1)
 ```python
 #Get IHSG Data
 IHSG = wb.DataReader(['^JKSE'], 'yahoo', start, end)
-IHSG['Adj Close'].tail(n=350).plot()
+IHSG
 ```
 
-Here
+Here is the result, the closing price of the index
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MzA3MDM5NTddfQ==
+eyJoaXN0b3J5IjpbLTk4OTk4ODQ4OV19
 -->
