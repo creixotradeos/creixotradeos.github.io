@@ -133,8 +133,10 @@ With the equation, it basically contains 3 components:
  - Drift component i.e. the direction of the asset in the past
  - Random component this component is the variables taken from a distribution
 
+For the simplicity sake of this article, we will assume normality
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMDAyNTU4ODAsLTQ5ODIyMjQ5NSwtNT
-E5Mzg3NjIxLDEwNzQzODk1ODQsODg1MjYyMTEzLDE4Mzc2MzUx
-MDRdfQ==
+eyJoaXN0b3J5IjpbMTQwOTYzMjA1OSwtMjAwMDI1NTg4MCwtND
+k4MjIyNDk1LC01MTkzODc2MjEsMTA3NDM4OTU4NCw4ODUyNjIx
+MTMsMTgzNzYzNTEwNF19
 -->
