@@ -115,9 +115,11 @@ The result:
 <img src="{{ site.url }}{{ site.baseurl }}/images/Plot and Monte Carlo/Log return scatter plot.png" 
 alt="Log return scatter plot">
 
-As we can see, that the majority of the return are between -0.025 and +0.025 
+As we can see, that the majority of the daily return are between -0.025 and +0.025 over the decade.
+
+Now, we can do an a
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMTcyNzkwMSw4ODUyNjIxMTMsMTgzNz
+eyJoaXN0b3J5IjpbMTQ1ODA2NjI1OCw4ODUyNjIxMTMsMTgzNz
 YzNTEwNF19
 -->
