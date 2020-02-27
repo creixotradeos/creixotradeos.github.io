@@ -129,10 +129,12 @@ $$ P_t = P_{t-1} * e^{(Drift + Random Component)}$$
 Since Monte Carlo is formally defined taken from a probability distribution to provide a multi-variable model of present 'what-if' events.
 With the equation, it basically contains 3 components:
 
- - P
+ - Yesterday's asset price
+ - Drift component i.e. the direction of the asset in the past
+ - Random component this component is the variables taken from a distribution
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTUxMTY5ODQyLC00OTgyMjI0OTUsLTUxOT
-M4NzYyMSwxMDc0Mzg5NTg0LDg4NTI2MjExMywxODM3NjM1MTA0
-XX0=
+eyJoaXN0b3J5IjpbLTIwMDAyNTU4ODAsLTQ5ODIyMjQ5NSwtNT
+E5Mzg3NjIxLDEwNzQzODk1ODQsODg1MjYyMTEzLDE4Mzc2MzUx
+MDRdfQ==
 -->
