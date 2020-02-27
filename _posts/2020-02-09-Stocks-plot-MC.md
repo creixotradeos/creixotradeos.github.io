@@ -122,10 +122,12 @@ Now, we can do an attempt to answer the question at the start of this article: t
 ## Monte Carlo Simulation on Stock Price
 A typical way to explain Monte Carlo Simulation is to imagine any type of probability, for example the slot machine image. At any given time, numerous occasions can happen in whenever next step depending on an action.
 
+Technically written, below is the Monte Carlo equation that is going to be used in this article:
 
+$$ Today'srice $$
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM1NzUwNjM3LC00OTgyMjI0OTUsLTUxOT
+eyJoaXN0b3J5IjpbNzM1MzE3OTA3LC00OTgyMjI0OTUsLTUxOT
 M4NzYyMSwxMDc0Mzg5NTg0LDg4NTI2MjExMywxODM3NjM1MTA0
 XX0=
 -->
