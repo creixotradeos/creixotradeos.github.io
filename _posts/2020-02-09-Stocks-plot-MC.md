@@ -37,6 +37,20 @@ from scipy.stats import norm
 import pylab
 ```
 
+Next, set the starting date and the end date for the data that is going to be retrieved:
+```python
+#Set start date and end date
+start = datetime.datetime(2010, 1, 1)
+end = datetime.datetime(2020, 2, 1)
+```
+```python
+#Get IHSG Data
+IHSG = wb.DataReader(['^JKSE'], 'yahoo', start, end)
+IHSG['Adj Close'].tail(n=350).plot()
+```
+
+Here
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MTk0MzY2NThdfQ==
+eyJoaXN0b3J5IjpbLTE3MzA3MDM5NTddfQ==
 -->
