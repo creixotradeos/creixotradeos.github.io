@@ -71,7 +71,9 @@ Here is the result:
 
 As we can see, we have 6 informations of the daily stock price the Adjusted Closing Price, the Closing Price, the High price of the day, the Low price of the day, the Opening Price, and the trading Volume of the day.
 
+## Determine the daily return of the index
 
+Next, we can calculate the daily return of the index. For this article I will use the logarithmic return of the index. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NjQyNDI5NDVdfQ==
+eyJoaXN0b3J5IjpbMTgzNzYzNTEwNF19
 -->
