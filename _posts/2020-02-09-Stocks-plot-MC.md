@@ -178,9 +178,10 @@ Monte Carlo Simulation is yet another tool in helping to make a investment decis
 
 In the future, I will try to make a more in-depth analysis on this simulation to help in making a better decision in investing in stock market. 
 
-Monte Carlo simulations permit investors and traders to transform investment possibilities into decisions. The upside of Monte Carlo is its capacity to factor in a scope of qualities for different possible events. This is likewise its most noteworthy downside is it sometimes fails to accurately gauge extreme events. For example, multiple Monte Carlo simulations failed during the great bear crisis. So, this model-like others are restricted by the data and settings applied. One possible solution to this weakness is to take a non-normal probably distribution for the random component simulated.
+Thank you for reading this article any feedback would be gladly appreciated!
+You can see my full code and further analysis for this article on my [GitHub repo](https://github.com/creixotradeos/Random-Walk-and-Monte-Carlo.git)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNDQ5NjA0NjcsLTIwMDAyNTU4ODAsLT
+eyJoaXN0b3J5IjpbLTE5MzQ5MTg3MjYsLTIwMDAyNTU4ODAsLT
 Q5ODIyMjQ5NSwtNTE5Mzg3NjIxLDEwNzQzODk1ODQsODg1MjYy
 MTEzLDE4Mzc2MzUxMDRdfQ==
 -->
