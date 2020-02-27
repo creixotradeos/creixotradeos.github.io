@@ -20,6 +20,8 @@ In this article, we will write a script that will allow us to:
  
 Monte Carlo Simulation is a mathematical technique that generates random variables for modelling. I have briefly written a simple explanation of the simulation [here](https://creixotradeos.github.io/Random-walk-monte-carlo-python/).
 
+## Get market data
+
 First, before attempting to analyze a data, we first must gather the data. In Python, stock price data can be acquired with a relatively easy and automatic method.  For this article, I will use Jakarta Stock Exchance Composite Index with the ticker of '^JKSE' or more commonly known in Indonesia as _IHSG (Indeks Harga Saham Gabungan_. This data can be extracted using Pandas DataReader and for the price source I will use Yahoo Finance Daily Reader.
 
 Let's import the necessary packages for this article:
@@ -67,8 +69,9 @@ Here is the result:
 | 2020-01-30 | 6057.596191 | 6057.596191 | 6057.596191 | 6057.596191 | 6057.596191 | 0.0        |
 | 2020-01-31 | 5940.047852 | 5940.047852 | 6078.930176 | 5937.021973 | 6076.458984 | 41508700.0 |
 
-As we can see, we have 6 informations of the daily stock price the Adjusted Closing Price, the Closing Price, the High
+As we can see, we have 6 informations of the daily stock price the Adjusted Closing Price, the Closing Price, the High price of the day, the Low price of the day, the Opening Price, and the trading Volume of the day.
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM1MDg1MzI2M119
+eyJoaXN0b3J5IjpbLTE5NjQyNDI5NDVdfQ==
 -->
