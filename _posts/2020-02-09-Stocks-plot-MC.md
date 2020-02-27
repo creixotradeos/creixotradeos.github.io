@@ -22,8 +22,21 @@ Monte Carlo Simulation is a mathematical technique that generates random variabl
 
 First, before attempting to analyze a data, we first must gather the data. In Python, stock price data can be acquired with a relatively easy and automatic method.  For this article, I will use Jakarta Stock Exchance Composite Index with the ticker of '^JKSE' or more commonly known in Indonesia as _IHSG (Indeks Harga Saham Gabungan_. This data can be extracted using Pandas DataReader and for the price source I will use Yahoo Finance Daily Reader.
 
-
+Let's import the necessary packages for this article:
+```python
+# Import Libraries
+import numpy as np
+import pandas as pd
+from pandas_datareader import data as wb
+import matplotlib.pyplot as plt
+%matplotlib inline
+import datetime
+from statsmodels.graphics.gofplots import qqplot
+import scipy.stats as stats
+from scipy.stats import norm
+import pylab
+```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkyNTgzNjU5NV19
+eyJoaXN0b3J5IjpbLTE1MTk0MzY2NThdfQ==
 -->
