@@ -85,9 +85,14 @@ Logarithmic Return of IHSG:
 IHSG_log_return = np.log(1 + IHSG.iloc[: , 0].pct_change())
 IHSG_log_return
 ```
-| Date                                                         			 | Return    		|
-|----------------------------------------------------|----------		|
-| 2010-01-04                                                   	| NaN       		|
+| Date | Return |
+|--|--|
+| 2010-01-04 | NaN |
+
+
+| Date                | Return    		|
+|----------------- | ----------		    |
+| 2010-01-04    | NaN       		|
 | 2010-01-05                                                   	| 0.011529  	|
 | 2010-01-06                                                   	| -0.000760 	|
 | 2010-01-07                                                   	| -0.006320 	|
@@ -179,7 +184,8 @@ In the future, I will try to make a more in-depth analysis on this simulation to
 Thank you for reading this article any feedback would be gladly appreciated!
 You can see my full code and further analysis for this article on my [GitHub repo](https://github.com/creixotradeos/Plot-and-Monte-Carlo-Simulation.git)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI2OTY2ODkyMCwtMTkzNDkxODcyNiwtMj
-AwMDI1NTg4MCwtNDk4MjIyNDk1LC01MTkzODc2MjEsMTA3NDM4
-OTU4NCw4ODUyNjIxMTMsMTgzNzYzNTEwNF19
+eyJoaXN0b3J5IjpbMjA5ODI2NTY5NCwxMjY5NjY4OTIwLC0xOT
+M0OTE4NzI2LC0yMDAwMjU1ODgwLC00OTgyMjI0OTUsLTUxOTM4
+NzYyMSwxMDc0Mzg5NTg0LDg4NTI2MjExMywxODM3NjM1MTA0XX
+0=
 -->
