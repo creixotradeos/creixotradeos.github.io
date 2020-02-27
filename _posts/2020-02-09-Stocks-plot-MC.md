@@ -174,9 +174,11 @@ alt="Monte Carlo Simulation">
 If we look at the result of the simulation, based on 10 years return and from the last retrieved price of JKSE, this composite index can potetially swing from Rp 4,200 to above Rp 8,000 in 250 days. At the latest price of Rp 5,940 and this simulation we can reasonably confident that JKSE index has a better potential of going up in its value.
 
 ## Conclusion
+Monte Carlo Simulation is yet another tool in helping to make a investment decision. It has an edge in its capacity to take into consideration different qualities 
 
+Monte Carlo simulations permit investors and traders to transform investment possibilities into decisions. The upside of Monte Carlo is its capacity to factor in a scope of qualities for different possible events. This is likewise its most noteworthy downside is it sometimes fails to accurately gauge extreme events. For example, multiple Monte Carlo simulations failed during the great bear crisis. So, this model-like others are restricted by the data and settings applied. One possible solution to this weakness is to take a non-normal probably distribution for the random component simulated.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUwODI4OTg4LC0yMDAwMjU1ODgwLC00OT
-gyMjI0OTUsLTUxOTM4NzYyMSwxMDc0Mzg5NTg0LDg4NTI2MjEx
-MywxODM3NjM1MTA0XX0=
+eyJoaXN0b3J5IjpbMTI0Mjc0NTI0NCwtMjAwMDI1NTg4MCwtND
+k4MjIyNDk1LC01MTkzODc2MjEsMTA3NDM4OTU4NCw4ODUyNjIx
+MTMsMTgzNzYzNTEwNF19
 -->
