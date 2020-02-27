@@ -16,10 +16,12 @@ In this article, we will write a script that will allow us to:
  - Get market data with Python and Pandas package
  - Determine the daily return of the stock
  - Plot the daily return with a chart
- - Simulate the movement of the stock price in the future with Monte Carlo Simulation
+ - Simulate the movement of the stock price in the future with Monte Carlo 
+
+Simulation
  
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU3MjU5NzE4NV19
+eyJoaXN0b3J5IjpbLTYxMDMxMzIzXX0=
 -->
