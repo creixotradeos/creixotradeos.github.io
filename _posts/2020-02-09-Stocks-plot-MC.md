@@ -133,10 +133,36 @@ With the equation, it basically contains 3 components:
  - Drift component i.e. the direction of the asset in the past
  - Random component this component is the variables taken from a distribution
 
-For the simplicity sake of this article, we will assume normality
+For the simplicity sake of this article, we will assume normality of the data for now.
+Written in Python it will look like this:
+
+```python
+np.random.seed(0) # Set seed
+u = IHSG_log_return.mean() # mean of log return
+var = IHSG_log_return.var() # variance of log return
+stdev = IHSG_log_return.std() # stdev of log return
+drift = u - (0.5 * var) # calculate drift value
+
+t_intervals = 250 # days of trading
+iterations = 100 # how many possibilities are to be calculated
+z_value = norm.ppf(np.random.rand(t_intervals, iterations)) # Z value, the random walk element | type: np.ndarray
+
+daily_returns = np.exp(drift + stdev * z_value) # calculate daily return based on random walk | type: np.ndarray
+```
+
+```python
+S0 = IHSG.iloc[-1:,0:1] # Create variable S0 equal to the last price of IHSG
+price_list = np.zeros_like(daily_returns) # Create price_list variable with the same dimension as daily_returns matrix
+price_list[0] = S0 # Set the first row to be equal to S0 | type: np.ndarray
+
+# Create a loop in the range (1, t_intervals) that reassigns 
+# to the price in time t the product of the price in day (t-1) with the value of the daily returns in t.
+for t in range(1, t_intervals):
+    price_list[t] = price_list[t-1] * daily_returns[t]
+```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQwOTYzMjA1OSwtMjAwMDI1NTg4MCwtND
+eyJoaXN0b3J5IjpbLTQxMTI4MDUxMiwtMjAwMDI1NTg4MCwtND
 k4MjIyNDk1LC01MTkzODc2MjEsMTA3NDM4OTU4NCw4ODUyNjIx
 MTMsMTgzNzYzNTEwNF19
 -->
