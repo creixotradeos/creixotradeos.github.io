@@ -168,8 +168,10 @@ plt.figure(figsize=(15,10))
 plt.plot(price_list)
 plt.show()
 ```
+
+/images/Plot%20and%20Monte%20Carlo/Monte%20Carlo.png
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjkyMjk5NjA0LC0yMDAwMjU1ODgwLC00OT
+eyJoaXN0b3J5IjpbMjgwNDUwNjY0LC0yMDAwMjU1ODgwLC00OT
 gyMjI0OTUsLTUxOTM4NzYyMSwxMDc0Mzg5NTg0LDg4NTI2MjEx
 MywxODM3NjM1MTA0XX0=
 -->
