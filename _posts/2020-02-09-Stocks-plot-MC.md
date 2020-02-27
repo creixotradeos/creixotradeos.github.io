@@ -104,6 +104,14 @@ IHSG_log_return
 
 ## Plotting the return
 
+**Plotting with Python and Matplotlib** is super easy, we only need to select the IHSG_log_return data.
+```python
+#Ploting the return scatter plot
+plt.figure(figsize=(10,6))
+plt.scatter(IHSG_log_return.index, IHSG_log_return)
+plt.show()
+```
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYwOTUwODE5NywxODM3NjM1MTA0XX0=
+eyJoaXN0b3J5IjpbODg1MjYyMTEzLDE4Mzc2MzUxMDRdfQ==
 -->
