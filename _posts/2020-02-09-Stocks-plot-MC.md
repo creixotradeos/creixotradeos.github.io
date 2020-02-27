@@ -117,9 +117,13 @@ alt="Log return scatter plot">
 
 As we can see, that the majority of the daily return are between -0.025 and +0.025 over the decade.
 
-Now, we can do an a
+Now, we can do an attempt to answer the question at the start of this article: to have an estimate of the future stock price.
+
+## Monte Carlo Simulation on Stock Price
+
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ1ODA2NjI1OCw4ODUyNjIxMTMsMTgzNz
+eyJoaXN0b3J5IjpbMTA3NDM4OTU4NCw4ODUyNjIxMTMsMTgzNz
 YzNTEwNF19
 -->
