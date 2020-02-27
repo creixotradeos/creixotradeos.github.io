@@ -20,8 +20,8 @@ In this article, we will write a script that will allow us to:
  
 Monte Carlo Simulation is a mathematical technique that generates random variables for modelling. I have briefly written a simple explanation of the simulation [here](https://creixotradeos.github.io/Random-walk-monte-carlo-python/).
 
-First, before attempting to analyze a data, we first must gather the data. In Python, stock price data can be acquired with a relatively easy and automatic method.  For this article
+First, before attempting to analyze a data, we first must gather the data. In Python, stock price data can be acquired with a relatively easy and automatic method.  For this article, I will use Jakarta Stock Exchance Composite Index with the ticker of '^JKSE' or more commonly known in Indonesia as _IHSG (Indeks Harga Saham Gabu_
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExODkyODUxNjldfQ==
+eyJoaXN0b3J5IjpbMjA1MTI3Mzk2MV19
 -->
