@@ -85,22 +85,20 @@ Logarithmic Return of IHSG:
 IHSG_log_return = np.log(1 + IHSG.iloc[: , 0].pct_change())
 IHSG_log_return
 ```
-| Date                                                         	| Return    	|
-|--------------------------------------------------------------	|-----------	|
-| 2010-01-04                                                   	| NaN       	|
+| Date                                                         			 | Return    		|
+|----------------------------------------------------|----------		|
+| 2010-01-04                                                   	| NaN       		|
 | 2010-01-05                                                   	| 0.011529  	|
 | 2010-01-06                                                   	| -0.000760 	|
 | 2010-01-07                                                   	| -0.006320 	|
 | 2010-01-08                                                   	| 0.010565  	|
-| ...                                                          	|           	|
+| ...                                                          				| ...          			|
 | 2020-01-27                                                   	| -0.017920 	|
 | 2020-01-28                                                   	| -0.003597 	|
 | 2020-01-29                                                   	| 0.000304  	|
 | 2020-01-30                                                   	| -0.009112 	|
 | 2020-01-31                                                   	| -0.019596 	|
-| Name: (Adj Close, ^JKSE), Length: 2461, dtype: float64</pre> 	|           	|
-|                                                              	|           	|
-|                                                              	|           	|
+
 
 ## Plotting the return
 
@@ -181,7 +179,7 @@ In the future, I will try to make a more in-depth analysis on this simulation to
 Thank you for reading this article any feedback would be gladly appreciated!
 You can see my full code and further analysis for this article on my [GitHub repo](https://github.com/creixotradeos/Plot-and-Monte-Carlo-Simulation.git)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAzNzcwNjc3MCwtMTkzNDkxODcyNiwtMj
+eyJoaXN0b3J5IjpbMTI2OTY2ODkyMCwtMTkzNDkxODcyNiwtMj
 AwMDI1NTg4MCwtNDk4MjIyNDk1LC01MTkzODc2MjEsMTA3NDM4
 OTU4NCw4ODUyNjIxMTMsMTgzNzYzNTEwNF19
 -->
